@@ -98,6 +98,7 @@ Future<List<AlcolItem>> get_data() async {
   final data = await SQLHelper.getItems();
   return AlcolItem.convertToAlcolItemList(data);
 }
+class ciao{}
 
 class SalesData {
   SalesData(this.year, this.sales);
